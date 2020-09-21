@@ -43,7 +43,7 @@ function generatePassword(){
   //    } while (PassLength < 0)
   //  }
 
-  
+  console.log("Can I push this to GitHub?")
 }
 
 // Add event listener to generate button
