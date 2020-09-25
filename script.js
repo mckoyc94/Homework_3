@@ -43,7 +43,6 @@ function generatePassword(){
     // If Lower Case Characters are Requested
     if (AlphaLower === true){
       var passwordLowerChar = randomCharFromArray(lowerCase)
-      console.log("Lower case character",passwordLowerChar)
     } else {
      CharArray.splice(3,1)
     }
@@ -51,7 +50,6 @@ function generatePassword(){
     //If Upper Case Characters are Requested
     if (AlphaUpper === true){
       var passwordUpperChar = randomCharFromArray(upperCase)
-      console.log("Upper case Character",passwordUpperChar)
     } else {
      CharArray.splice(2,1) 
     }
@@ -59,7 +57,6 @@ function generatePassword(){
     //If Numerals are Requested
     if (Numerals === true){
       var passwordNumChar = randomCharFromArray(NumChar)
-      console.log("Number",passwordNumChar)
     } else {
      CharArray.splice(1,1) 
     }
@@ -67,7 +64,6 @@ function generatePassword(){
     //If Special Letters are Requested
     if (Special === true){
       var passwordSpecChar = randomCharFromArray(specChar)
-      console.log("Special Character",passwordSpecChar)
     } else {
      CharArray.splice(0,1) 
     }
