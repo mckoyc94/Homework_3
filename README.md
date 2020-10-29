@@ -38,3 +38,7 @@ Once all the parameters have been set, the app will generate a new password rand
 ## Contact Info
 
 <b> Email: </b> cmckoy@elon.edu
+
+<i> If you'd like to try the app yourself, please follow the link: </i>
+[Password Generator](https://mckoyc94.github.io/PasswordGenerator/)
+
