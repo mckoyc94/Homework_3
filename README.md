@@ -1,13 +1,40 @@
 RANDOM PASSWORD GENERATOR
 
-For this project, I created a webpage with the sole function of generating a random password for the user. To start, I was given a completed HTML and CSS file and a partially completed javascript file.
+## Table of Contents
+* [Description of App](#description)
+* [Technologies](#technologies)
+* [Demo of App](#demo)
+* [License](#license)
+* [Contact Info](#contact-info)
+* [Live Site](https://mckoyc94.github.io/PasswordGenerator/)
 
-In the Javascript file, I focused mainly on coding the generatePassword function. I added 4 arrays, each one containing a certain type of characters to be called upon when asked for. Next I created a function to randomly choose a value within an array. 
+## Description
+   <p> Password Generator allows the user to customize a randomly generated password of at least 8 characters to be used for current and future accounts. </p> 
 
-Within the generatePassword function I created a prompt that let the user set the length of the password. If the password wasn't at least 8 characters long, longer than 128 characters, or was a string, the code wouldn't run and instead ask for a valid value to run the function. 
+## Technologies
+    * HTML
+    * CSS
+    * Javascript
 
-Once a length was decided, the user is asked a series of questions to determine what kind of character types should be included. For each of the 4 character types, there is prompt to either include them in the password or omit them. I created an array of the 4 arrays, and if one is chosen to be omitted from the password then it is spliced out of the array. 
+## Demo
+<img src = "Assets\MainPage.JPG" alt = "Main Page" width = "1000px" height = "500px">
+Upon Loading the page, the user is given the option to generate a password. 
+<br></br>
 
-Then a for loop runs, generating a random array and then a random character in that array which is returned to a string to create the password. This happens the number of times equal the desired length of the password. The string is then returned to the original function used when clicking the button and the password appears on the screen. 
+<img src = "Assets\Prompt.JPG" alt = "Choose the Length of Your Password" width = "1000px" height = "500px">
+Once the generate password button is clicked, the user will be prompted to define the length of their password.
+<br></br>
 
-To see screen shots of the password generator at work, they can be found in the assests folder. 
+<img src = "Assets\CustomizePassword.JPG" alt = "Customize What Characters are in your password" width = "1000px" height = "500px">
+With a length chosen, the app will as the user which of the following characters it would like to include in the password: Numerals, Special Characters, Upper Case letters, and Lower Case letters.
+<br></br>
+<img src = "Assets\Result.JPG" alt = "Password Appears" width = "1000px" height = "500px">
+Once all the parameters have been set, the app will generate a new password randomly, pulling only from the specified character pools. 
+<br></br>
+
+## License
+    MIT
+
+## Contact Info
+
+<b> Email: </b> cmckoy@elon.edu
