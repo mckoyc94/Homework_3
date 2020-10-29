@@ -41,30 +41,22 @@ function generatePassword(){
     var string = ""
 
     // If Lower Case Characters are Requested
-    if (AlphaLower === true){
-      var passwordLowerChar = randomCharFromArray(lowerCase)
-    } else {
+    if (AlphaLower === false){
      CharArray.splice(3,1)
     }
 
     //If Upper Case Characters are Requested
-    if (AlphaUpper === true){
-      var passwordUpperChar = randomCharFromArray(upperCase)
-    } else {
+    if (AlphaUpper === false){
      CharArray.splice(2,1) 
     }
 
     //If Numerals are Requested
-    if (Numerals === true){
-      var passwordNumChar = randomCharFromArray(NumChar)
-    } else {
+    if (Numerals === false){
      CharArray.splice(1,1) 
     }
 
     //If Special Letters are Requested
-    if (Special === true){
-      var passwordSpecChar = randomCharFromArray(specChar)
-    } else {
+    if (Special === false){
      CharArray.splice(0,1) 
     }
 
