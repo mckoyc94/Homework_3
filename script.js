@@ -70,6 +70,7 @@ function generatePassword(){
   
   } else {
     alert("Invalid Number. \nMust be a number between 8 and 128 \nPlease try again and enter a valid number")
+    return ""
   }
 }
 
